@@ -1,0 +1,14 @@
+# Robots.txt for offshorerubyonrailsdevelopment.com
+
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Disallow thank-you page from indexing (not useful for search)
+Disallow: /thank-you.html
+
+# Sitemap location
+Sitemap: https://offshorerubyonrailsdevelopment.com/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
